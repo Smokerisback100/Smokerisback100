@@ -1,0 +1,36 @@
+25°04'23.2"N 55°17'52.8"E
+0509441114 
+$ make install-tools
+$ (cd web/client && yarn && yarn build)
+ضحية 1
+2
+S A K R A N❣
+discord sc7i.
+
+# Add --help at the end of the command for a list of install options
+bash <( curl -sSL https://raw.githubusercontent.com/sundowndev/phoneinfoga/master/support/scripts/install )
+
+$ make install-tools
+$ (cd web/client && yarn && yarn build)
+# Run test suite
+go test -v ./...
+
+# Collect coverage
+go test -coverprofile=coverage.out ./...
+
+# Open coverage file as HTML
+go tool cover -html=coverage.out
+bin/        # Local binaries
+build/      # Build package providing info about the current build
+cmd/        # Command-line app code
+docs/       # Documentation
+examples/   # Some code examples
+lib/        # Libraries 
+mocks/      # Mocks
+support/    # Utilities, manifests for production and local env
+test/       # Utilities for testing purposes
+web/        # Web server, including REST API and web client
+go.mod      # Go modules file
+main.go     # Application entrypoint
+
+
